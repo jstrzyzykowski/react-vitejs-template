@@ -1,30 +1,68 @@
-# React + TypeScript + Vite
+# ViteJS React App Template 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Vite.js template for React projects, with ESLint, Prettier, Vitest, Testing Library, and Sass.
 
-Currently, two official plugins are available:
+## Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **⚛️ React 18**
+- **⚡ Vite.js**
+- **🛠️ TypeScript**
+- **🔍 ESLint**
+- **💅 Prettier**
+- **🧪 Vitest**
+- **🧩 Testing Library**
+- **🎨 Sass**
 
-## Expanding the ESLint configuration
+## Getting Started 🏁
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Clone the repository**:
 
-- Configure the top-level `parserOptions` property like this:
+   ```bash
+   git clone <repository-url>
+   cd <repository-name>
+   ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. **Install dependencies**:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**:
+
+   ```bash
+   npm run build
+   ```
+
+5. **Preview the production build**:
+
+   ```bash
+   npm run preview
+   ```
+
+6. **Run tests**:
+
+   ```bash
+   npm run test
+   ```
+
+7. **Lint the code**:
+
+   ```bash
+   npm run lint
+   ```
+
+8. **Prepare Husky hooks**:
+   ```bash
+   npm run prepare
+   ```
+
+## Contributing 🤝
+
+Feel free to open issues or submit pull requests to improve this template. Feel free to adjust any part of this description to better fit your specific setup or preferences.
